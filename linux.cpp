@@ -17,4 +17,11 @@ int main(){
 	redhat.tipe="Support Berbagai Aplikasi";
 	ubuntu.tipe="Tampilan Keren";
 	fedora.tipe="Lisensi Gratis";
+	
+	cout<<(ubuntu.tipe);
+	ubuntu.opensource("13.1");
+	fedora.opensource("11.0");
+}
+void debian::opensource(string tipe){
+	cout<<"Open Source"<<bebas<<"!!"<<endl;
 }
